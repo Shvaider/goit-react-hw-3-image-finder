@@ -6,7 +6,7 @@ export async function fetchDataApi(query, page) {
     key: API_KEY,
     image_type: 'photo',
     orientation: 'horizontal',
-    per_page: 12,
+    per_page: 15,
     page,
     q: query,
   };
